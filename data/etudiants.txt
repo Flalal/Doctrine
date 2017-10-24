@@ -1,0 +1,41 @@
+Nom;Prenom;Numéro et rue;Code postal;Ville;Téléphone;Adresse mail;Date de naissance
+Dupont;Neville;29, Chemin des Bateliers;61000;ALENÇON;02.32.59.60.86;NevilleDupont@jourrapide.com;19/09/1934
+Sevier;Isaac;10, rue du Faubourg National;33400;TALENCE;05.12.18.34.36;IsaacSevier@rhyta.com;21/06/1949
+Bourgouin;Catherine;40, rue Bonneterie;12100;MILLAU;05.49.03.96.68;CatherineBourgouin@rhyta.com;16/07/1973
+Truchon;Raina;45, rue Descartes;67200;STRASBOURG;03.86.83.47.23;RainaTruchon@rhyta.com;05/01/1993
+Franchet;Odo;43, rue Sébastopol;91700;SAINTE-GENEVIÈVE-DES-BOIS;01.34.47.71.32;OdoFranchet@rhyta.com;16/07/1982
+Lepage;Aya;12, rue Gouin de Beauchesne;93400;SAINT-OUEN;01.34.10.46.57;AyaLepage@teleworm.us;28/10/1945
+Douffet;Afrodille;45, rue La Boétie;75015;PARIS;01.41.89.71.51;AfrodilleDouffet@dayrep.com;09/12/1963
+Gadbois;Timothée;71, Rue Joseph Vernet;55000;BAR-LE-DUC;03.22.55.42.62;TimotheGadbois@dayrep.com;28/03/1995
+Faucher;Ignace;42, rue Saint Germain;92230;GENNEVILLIERS;01.94.23.21.39;IgnaceFaucher@rhyta.com;30/01/1968
+Neufville;Gaetan;54, rue Goya;94170;LE PERREUX-SUR-MARNE;01.26.52.70.84;GaetanNeufville@dayrep.com;10/02/1959
+Morin;Antoine;36, rue Jean-Monnet;95500;GONESSE;01.62.82.17.93;AntoineMorin@jourrapide.com;01/01/1991
+Lajoie;Tempeste;88, Rue Roussy;45000;ORLÉANS;02.91.53.67.45;TempesteLajoie@teleworm.us;10/01/1938
+Chassé;Luc;44, Place de la Madeleine;75010;PARIS;01.89.80.84.34;LucChass@jourrapide.com;03/08/1960
+Arnoux;Jeanette;13, Faubourg Saint Honoré;75116;PARIS;01.35.44.28.45;JeanetteArnoux@dayrep.com;22/02/1934
+Leclair;Brice;36, rue Gustave Eiffel;91000;RIS-ORANGIS;01.04.81.64.33;BriceLeclair@dayrep.com;22/11/1947
+Josseaume;Gay;97, rue Charles Corbeau;09000;FOIX;05.72.75.65.55;GayJosseaume@teleworm.us;27/04/1962
+Lamy;D'Arcy;42, boulevard Bryas;94000;CRÉTEIL;01.24.61.46.86;DArcyLamy@armyspy.com;28/02/1974
+Vaillancourt;Gérard;54, rue du Gue Jacquet;92320;CHÂTILLON;01.58.66.35.51;GrardVaillancourt@rhyta.com;14/06/1979
+Varieur;Clovis;62, rue des Nations Unies;97470;SAINT-BENOÎT;02.66.76.53.85;ClovisVarieur@rhyta.com;15/12/1956
+Beaudoin;Toussaint;10, rue Gustave Eiffel;91000;RIS-ORANGIS;01.39.43.45.78;ToussaintBeaudoin@dayrep.com;09/03/1995
+Sicard;Porter;37, rue Banaudon;69008;LYON;04.77.66.12.60;PorterSicard@armyspy.com;20/08/1929
+Bonneville;Laurette;78, rue Sébastopol;17100;SAINTES;05.93.67.61.64;LauretteBonneville@jourrapide.com;04/06/1965
+Arpin;Benoît;65, rue des lieutemants Thomazo;39100;DOLE;03.87.01.58.41;BenotArpin@teleworm.us;18/10/1979
+Brault;Talbot;41, rue du Gue Jacquet;78400;CHATOU;01.77.65.33.78;TalbotBrault@dayrep.com;23/06/1966
+Therrien;Ancelote;60, rue du Président Roosevelt;67300;SCHILTIGHEIM;03.42.82.10.68;AnceloteTherrien@jourrapide.com;19/06/1943
+Béland;Karel;69, Cours Marechal-Joffre;95170;DEUIL-LA-BARRE;01.94.21.61.55;KarelBland@rhyta.com;28/12/1982
+Moquin;Angelette;58, Boulevard de Normandie;57600;FORBACH;03.66.87.27.15;AngeletteMoquin@rhyta.com;03/06/1961
+Brousseau;Louise;51, rue des Nations Unies;22000;SAINT-BRIEUC;02.16.83.59.33;LouiseBrousseau@rhyta.com;05/03/1983
+Tessier;Pryor;24, Avenue des Tuileries;59190;HAZEBROUCK;03.64.34.38.08;PryorTessier@armyspy.com;01/05/1989
+Gour;Aubin;1, Avenue des Tuileries;78280;GUYANCOURT;01.07.39.71.77;AubinGour@jourrapide.com;25/04/1989
+Robillard;Agrican;95, Avenue des Pr'es;95160;MONTMORENCY;01.28.13.16.35;AgricanRobillard@jourrapide.com;14/08/1951
+Boncoeur;Olympia;93, Chemin Du Lavarin Sud;62100;CALAIS;03.68.12.96.11;OlympiaBoncoeur@jourrapide.com;08/11/1947
+Trottier;Maureen;92, place Stanislas;44000;NANTES;02.65.76.78.83;MaureenTrottier@teleworm.us;23/07/1974
+Clavet;Neville;76, Avenue des Pr'es;34000;MONTPELLIER;04.22.65.82.32;NevilleClavet@jourrapide.com;05/01/1939
+Desrosiers;Florismart;91, Rue de la Pompe;97600;MAMOUDZOU;02.79.61.89.87;FlorismartDesrosiers@teleworm.us;27/04/1936
+Chenard;Arnou;19, rue de l'Aigle;97419;LA POSSESSION;02.47.55.42.24;ArnouChenard@teleworm.us;09/05/1940
+Reault;Hardouin;75, rue de Groussay;26100;ROMANS-SUR-ISÈRE;04.73.62.67.27;HardouinReault@rhyta.com;09/09/1973
+Béland;Cécile;31, rue de la Mare aux Carats;34070;MONTPELLIER;04.47.64.94.57;CcileBland@jourrapide.com;25/01/1983
+Chenard;Telford;77, rue Jean Vilar;90000;BELFORT;03.98.30.47.32;TelfordChenard@armyspy.com;01/06/1968
+Laframboise;Roch;47, rue Pierre Motte;88100;SAINT-DIÉ;03.86.91.63.07;RochLaframboise@teleworm.us;24/03/1948

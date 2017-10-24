@@ -1,0 +1,40 @@
+@startuml
+
+hide empty members
+
+class Matiere {
+# nomCourt string
+# nomLong string
+# unitEnseignement string
+}
+
+class Enseignant {
+# nom string
+# prenom string
+}
+
+class Epreuve {
+# libelle string
+# dateCompose date
+# coefficient float
+}
+
+class Etudiant {
+# nom string
+# prenom string
+# numero
+}
+
+class Note {
+# valeur float
+# etat string
+}
+
+Enseignant "1" -up- "*" Epreuve
+Epreuve "*" -right-> "1" Matiere
+Note "*" -right- "1" Epreuve
+Note "*" -right- "1" Etudiant
+Epreuve "*" -up-> "*" Etudiant : absents
+
+
+@enduml

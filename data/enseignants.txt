@@ -1,0 +1,11 @@
+Nom;Prenom;Numéro et rue;Code postal;Ville;Téléphone;Adresse mail;Date de naissance
+Asselin;Campbell;80, boulevard Amiral Courbet;01100;OYONNAX;04.05.29.05.64;CampbellAsselin@jourrapide.com;30/12/1956
+Clément;Burkett;75, Rue Roussy;98800;NOUMÉA;03.46.52.25.51;BurkettClment@dayrep.com;30/03/1992
+Berthiaume;Yseult;24, Place Napoléon;02000;LAON;03.85.42.69.59;YseultBerthiaume@teleworm.us;20/04/1970
+Marier;Frédéric;7, rue de l'Epeule;76000;ROUEN;02.25.36.50.62;FrdricMarier@armyspy.com;07/02/1965
+Bouvier;Vivienne;15, Avenue De Marlioz;74100;ANNEMASSE;04.45.09.47.79;VivienneBouvier@armyspy.com;21/11/1993
+Desnoyer;D'Arcy;6, rue Descartes;92150;SURESNES;01.56.73.43.47;DArcyDesnoyer@rhyta.com;06/05/1949
+Savoie;Dielle;35, Rue Frédéric Chopin;27200;VERNON;02.51.70.53.64;DielleSavoie@armyspy.com;04/06/1964
+Binet;Benoît;10, Rue du Limas;97100;BASSE-TERRE;05.36.83.19.11;BenotBinet@armyspy.com;29/03/1969
+Duplanty;Bevis;68, Quai des Belges;77100;MEAUX;01.55.22.39.41;BevisDuplanty@rhyta.com;24/12/1943
+Lamoureux;Parfait;32, Rue de Strasbourg;92140;CLAMART;01.33.46.36.03;ParfaitLamoureux@rhyta.com;26/11/1950
