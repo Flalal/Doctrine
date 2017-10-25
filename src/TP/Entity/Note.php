@@ -5,46 +5,44 @@
  */
 
 namespace TP\Entity;
-use Doctrine\ORM\Mapping\Column;
-use Doctrine\ORM\Mapping\Entity;
-use Doctrine\ORM\Mapping\GeneratedValue;
-use Doctrine\ORM\Mapping\Id;
-use Doctrine\ORM\Mapping\Table;
-use Doctrine\ORM\Mapping\ManyToOne;
+
+
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * Class Note
  * @package TP\Entity
- * @Entity
- * @Table(name="notes")
+ * @ORM\Entity
+ * @ORM\Table(name="notes")
  */
 class Note {
     /**
      * @var int
-     * @Id
-     * @GeneratedValue
-     * @Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
      */
     protected $id;
     /**
      * @var Epreuve
-     * @ManyToOne(targetEntity="Epreuve", inversedBy="notes")
+     * @ORM\ManyToOne(targetEntity="Epreuve", inversedBy="notes")
      *
      */
     protected $epreuve;
     /**
      * @var Etudiant
-     * @ManyToOne(targetEntity="Etudiant", inversedBy="notes")
+     * @ORM\ManyToOne(targetEntity="Etudiant", inversedBy="notes")
      *
      */
     protected $etudiant;
     /**
      * @var string ('neutre', 'valide', 'absent')
-     * @Column(type="string", length=10)
+     * @ORM\Column(type="string", length=10)
      */
     protected $etat = 'neutre';
     /**
      * @var float
-     * @Column(type="decimal", precision=4, scale=2)
+     * @ORM\Column(type="decimal", precision=4, scale=2)
      */
     protected $valeur=0.0;
 

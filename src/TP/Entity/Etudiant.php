@@ -6,50 +6,45 @@
 
 namespace TP\Entity;
 
-use Doctrine\ORM\Mapping\OneToMany;
-use Doctrine\ORM\Mapping\JoinTable;
-use Doctrine\ORM\Mapping\ManyToMany;
-use Doctrine\ORM\Mapping\Column;
-use Doctrine\ORM\Mapping\Id;
-use Doctrine\ORM\Mapping\GeneratedValue;
-use Doctrine\ORM\Mapping\Entity;
-use Doctrine\ORM\Mapping\Table;
+
+use Doctrine\ORM\Mapping as ORM;
+
 
 /**
  * Class Etudiant
  * @package TP\Entity
- * @Entity
- * @Table(name="etudiants")
+ * @ORM\Entity
+ * @ORM\Table(name="etudiants")
  */
 class Etudiant {
     /**
      * @var int
-     * @Id()
-     * @GeneratedValue
-     * @Column(type="integer")
+     * @ORM\Id()
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
      */
     protected $id;
     /**
      * @var string
      *
-     * @Column(type="string", length=40)
+     * @ORM\Column(type="string", length=40)
      */
     protected $nom;
     /**
      * @var string
      *
-     * @Column(type="string", length=40)
+     * @ORM\Column(type="string", length=40)
      */
     protected $prenom;
     /**
      * @var string
      *
-     * @Column(type="string", length=10)
+     * @ORM\Column(type="string", length=10)
      */
     protected $numero;
     /**
      * @var Note[]
-     * @OneToMany(targetEntity="Note", mappedBy="etudiant")
+     * @ORM\OneToMany(targetEntity="Note", mappedBy="etudiant")
      */
     protected $notes;
     /**

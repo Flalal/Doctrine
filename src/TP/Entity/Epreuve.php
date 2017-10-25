@@ -8,72 +8,62 @@ namespace TP\Entity;
 
 //use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\ORM\Mapping\Column;
-use Doctrine\ORM\Mapping\Entity;
-use Doctrine\ORM\Mapping\GeneratedValue;
-use Doctrine\ORM\Mapping\Id;
-use Doctrine\ORM\Mapping\JoinColumn;
-use Doctrine\ORM\Mapping\JoinTable;
-use Doctrine\ORM\Mapping\ManyToMany;
-use Doctrine\ORM\Mapping\ManyToOne;
-use Doctrine\ORM\Mapping\OneToMany;
-use Doctrine\ORM\Mapping\Table;
 
 /**
  * Class Epreuve
  * @package TP\Entity
- * @Entity
- * @Table(name="epreuves")
+ * @ORM\Entity
+ * @ORM\Table(name="epreuves")
  */
 class Epreuve {
     /**
      * @var int
-     * @Id
-     * @GeneratedValue
-     * @Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
      */
     protected $id;
     /**
      * @var string
-     * @Column(type="string", length=60)
+     * @ORM\Column(type="string", length=60)
      */
     protected $libelle;
     /**
      * @var \DateTime
-     * @Column(type="date")
+     * @ORM\Column(type="date")
      */
     protected $dateCompose;
     /**
      * @var float
-     * @Column(type="decimal", precision=4, scale=2)
+     * @ORM\Column(type="decimal", precision=4, scale=2)
      */
     protected $coefficient;
     /**
      * @var Enseignant
-     * @ManyToOne(targetEntity="Enseignant", inversedBy="epreuves")
+     * @ORM\ManyToOne(targetEntity="Enseignant", inversedBy="epreuves")
      */
     protected $enseignant;
     /**
      * @var Matiere
-     * @ManyToOne(targetEntity="Matiere")
-     * @JoinColumn(name="matiere_id", referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="Matiere")
+     * @ORM\JoinColumn(name="matiere_id", referencedColumnName="id")
      */
     protected $matiere;
     /**
      * @var Etudiant[]
      *
-     * @ManyToMany(targetEntity="Etudiant")
-     * @JoinTable(name="absences_etd_epr",
-     *   joinColumns={@JoinColumn(name="epreuve_id", referencedColumnName="id")},
-     *   inverseJoinColumns={@JoinColumn(name="etudiant_id", referencedColumnName="id")}
+     * @ORM\ManyToMany(targetEntity="Etudiant")
+     * @ORM\JoinTable(name="absences_etd_epr",
+     *   joinColumns={@ORM\JoinColumn(name="epreuve_id", referencedColumnName="id")},
+     *   inverseJoinColumns={@ORM\JoinColumn(name="etudiant_id", referencedColumnName="id")}
      * )
      *
      */
     protected $absents;
     /**
      * @var Note[]
-     * @OneToMany(targetEntity="Note", mappedBy="epreuve")
-     * @Column(nullable=false)
+     * @ORM\OneToMany(targetEntity="Note", mappedBy="epreuve")
+     * @ORM\Column(nullable=false)
      */
     protected $notes;
 

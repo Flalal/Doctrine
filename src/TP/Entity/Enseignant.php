@@ -12,7 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @Table(name="enseignants")
+ * @ORM\Table(name="enseignants")
  */
 class Enseignant {
     /**
@@ -26,18 +26,18 @@ class Enseignant {
     /**
      * @var string
      *
-     * @Column(type="string", length=40)
+     * @ORM\Column(type="string", length=40)
      */
     protected $nom;
     /**
      * @var string
      *
-     * @Column(type="string", length=40)
+     * @ORM\Column(type="string", length=40)
      */
     protected $prenom;
     /**
      * @var Epreuve[]
-     * @OneToMany(targetEntity="Epreuve", mappedBy="enseignant", cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="Epreuve", mappedBy="enseignant", cascade={"persist"})
      */
     protected $epreuves;
     /**

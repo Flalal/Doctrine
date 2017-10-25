@@ -6,39 +6,36 @@
 
 namespace TP\Entity;
 
-use Doctrine\ORM\Mapping\Column;
-use Doctrine\ORM\Mapping\Entity;
-use Doctrine\ORM\Mapping\GeneratedValue;
-use Doctrine\ORM\Mapping\Id;
-use Doctrine\ORM\Mapping\Table;
+
+use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Class Matiere
  * @package TP\Entity
- * @Entity
- * @Table(name="matieres")
+ * @ORM\Entity
+ * @ORM\Table(name="matieres")
  */
 class Matiere {
     /**
      * @var int
-     * @Id
-     * @GeneratedValue
-     * @Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
      */
     protected $id;
     /**
      * @var string
-     * @Column(type="string", length=120, name="nom_long")
+     * @ORM\Column(type="string", length=120, name="nom_long")
      */
     protected $nomLong;
     /**
      * @var string
-     * @Column(type="string", length=10, name="nom_court")
+     * @ORM\Column(type="string", length=10, name="nom_court")
      */
     protected $nomCourt;
     /**
      * @var string
-     * @Column(type="string", length=10, name="unit_enseignement")
+     * @ORM\Column(type="string", length=10, name="unit_enseignement")
      */
     protected $unitEnseignement;
 
