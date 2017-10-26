@@ -18,3 +18,6 @@ $dbParams = [
 ];
 // Dev mode?
 $dev = true;
+
+
+$entityPath = array(__DIR__.'/TP/Entity');
